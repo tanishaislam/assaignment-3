@@ -4,8 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>fruit website</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <header class="container mx-auto ">
+        <nav>
+            <div class="navbar bg-[#F85559]  bg-base-100  rounded-full mt-12 p-2">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost btn-circle lg:hidden  text-white">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+                    </label>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      <li><a>Home</a></li>
+                      <li><a>About Us</a></li>
+                      <li><a>Shop</a></li>
+                      <li><a>All Fruits</a></li>
+                    </ul>
+                   <div class=" hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1  text-white">
+                        <li><a>Home</a></li>
+                        <li><a>About Us</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>All Fruits</a></li>
+                      </ul>
+                   </div>
+                  </div>
+                </div>
+                <div class="navbar-center  pb-4  text-white">
+                  <a class="btn btn-ghost normal-case text-4xl flex justify-center items-center">
+                    <div class="">
+                        <img src="./images/logo.png" class="h-[60px]" alt="">
+                    </div>
+                    Fruit Burst</a>
+                </div>
+                <div class="navbar-end  hidden lg:flex">
+                    <div class="form-control w-80">
+                        <div class="relative">
+                          <input type="text" placeholder="Search" class="outline-none rounded-l-full pl-5  py-2 pr-20 text-black relative" /> 
+                          <button class="bg-white text-black absolute font-medium rounded-r-full py-2 pr-4">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                          </button>
+                        </div>
+                      </div>
+                </div>
+              </div>
+        </nav>
+    </header>
+    <main  class="container mx-auto">
+
+    </main>
+    <footer>
+
+    </footer>
     
 </body>
 </html>
